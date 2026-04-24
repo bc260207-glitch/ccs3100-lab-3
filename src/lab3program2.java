@@ -26,6 +26,7 @@ public class lab3program2{
         double totalpay = item1pay + item2pay;
         double gtax = totalpay * 0.06;
         double servicecharge = totalpay * 0.1;
+        double totalpay2 = totalpay + gtax + servicecharge;
 
         // Receipt
         System.out.print("\nReceipt\n\n");
@@ -42,6 +43,7 @@ public class lab3program2{
         System.out.printf("\nTotal: RM%.2f\n", totalpay);
         System.out.printf("Government Tax: RM%.2f\n", gtax);
         System.out.printf("Service Charge: RM%.2f\n", servicecharge);
+        System.out.printf("\nTotal: RM%.2f\n", totalpay2);
 	}
 
 }
